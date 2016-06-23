@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack -d",
     "build": "webpack -p",
-    "start": "webpack && http-server ./src/client"
+    "start": " webpack-dev-server --content-base src/client/ --port 9998"
   },
   "author": "Olivier Lamarche",
   "license": "ISC",
@@ -19,7 +19,9 @@
     "re-base": "^1.5.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-geo-location": "0.0.0",
     "reactfire": "^1.0.0",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }

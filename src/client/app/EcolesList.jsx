@@ -56,4 +56,4 @@ class EcolesList extends React.Component {
 
 }
 
-export default AwesomeComponent;
+export default EcolesList;
